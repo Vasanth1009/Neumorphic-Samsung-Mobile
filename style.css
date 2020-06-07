@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    /* color:  white; */
+    font-family: 'Balsamiq Sans', sans-serif;
+    min-height:  100vh;
+    min-width: 100vw;
+    background-color: #EFF4F8;
+}
+.outerbox{
+    position: absolute;
+    margin:30px 650px;
+    width : 270px;
+    height: 600px;
+    border-radius: 35px;
+    border-bottom: groove;
+    border-left:4px rgba(218, 224, 230, 0.986) groove ;
+    border-top:4px rgba(207, 211, 216, 0.986) groove;
+    border-right: 60px;
+    background: rgba(172, 174, 175, 0.65);
+    box-shadow:  inset 13px 0px 10px #e3e7f1,20px 10px 30px rgba(126, 129, 131, 0.671);  
+}
+.callspeaker img{
+    height: 50px;
+    margin: -10px 115px;
+    width:40px;
+}
+
+.innerbox{
+    position: absolute;
+    margin: -5px 5px;
+    background: rgb(223, 231, 238);
+    border-radius: 25px;
+    border-left: 1px groove;
+    width: 252px;
+    height: 538px;
+    box-shadow: inset 14px  0px 15px rgb(247, 252, 255),inset -10px 0px 20px rgba(208, 210, 212, 0.986),0px 0px 0px rgba(113, 116, 119, 0.986);
+}
+.caller-img{
+    position: absolute;
+    background: rgb(226, 231, 235);
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    margin: 65px 70px;
+    box-shadow:-10px -10px 15px rgba(255,255,255,0.5),10px 10px 15px rgba(70,70,70,0.12),inset -2px -2px 2px rgba(22, 22, 22, 0.12),inset 2px 2px 2px rgba(70,70,70,0.12);
+}
+.face{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin: 35px 47px;
+    border-radius: 50%;
+    background: #dae2e7;
+    box-shadow: inset 4px 4px 10px #d2d2d4,inset -4px -4px 10px #ececee;
+}
+.body{
+    position:absolute;
+    width: 60px;
+    height: 25px;
+    margin: 75px 30px;
+    border-radius: 40%;
+    background: #dfe4e9;
+    box-shadow: inset 4px 4px 10px #d2d2d4,inset -4px -4px 10px #ececee;
+}
+.time{
+    font-weight:600;
+    margin: 200px 110px;
+    font-size: 14px;
+    color:rgb(172, 172, 172);
+    font-family: 'Segoe UI', Tahoma, Geneva, ;
+}
+.name{
+    margin: -180px 85px;
+    font-weight:600;
+    color:rgb(26, 26, 26);
+    font-size: 18px;
+}
+.ph-no{
+    position: absolute;
+    width: 200px;
+    font-weight:600;
+    margin: 190px 65px;
+    font-size: 14px;
+    color:rgb(172, 172, 172);
+    font-family: 'Segoe UI', Tahoma, Geneva, ;
+}
+.video-call {
+    position: absolute;
+    background: rgb(226, 231, 235);
+    width: 50px;
+    height: 50px;
+    border-radius: 45%;
+    margin: 225px 30px;
+    box-shadow: 3px 3px 14px #dcdfe4,4px 4px 10px #cac5c5,inset 2px 2px 5px #ccccd3,inset -2px -2px 5px #ccccd3;
+}
+.video-call img{
+    width: 18px;
+    height: 18px;
+    margin:16px;
+}
+.vc{
+    position: absolute;
+    font-size: 10px;
+    margin:290px 30px;
+    color:rgb(172, 172, 172);
+    font-weight: 700;
+}
+.Speaker {
+    position: absolute;
+    background: rgb(226, 231, 235);
+    width: 50px;
+    height: 50px;
+    border-radius: 45%;
+    margin: 225px 103px;
+    box-shadow:inset 3px 3px 14px #dcdfe4,inset -3px -3px 7px #ffffff;
+}
+.Speaker svg{
+    width: 25px;
+    height: 22px;
+    margin: 14px;
+}
+.sp{
+    position: absolute;
+    font-size: 10px;
+    margin:290px 107px;
+    color:rgb(172, 172, 172);
+    font-weight: 700;
+}
+.Mute {
+    position: absolute;
+    background: rgb(226, 231, 235);
+    width: 50px;
+    height: 50px;
+    border-radius: 45%;
+    margin: 225px 175px;
+    box-shadow: 3px 3px 14px #dcdfe4,4px 4px 10px #cac5c5,inset 2px 2px 5px #ccccd3,inset -2px -2px 5px #ccccd3;
+}
+.Mute img{
+    width: 22px;
+    height: 22px;
+    margin:15px;
+}
+.mt{
+    position: absolute;
+    font-size: 10px;
+    margin: 290px 188px;
+    color:rgb(172, 172, 172);
+    font-weight: 700;
+}
+.EndCall {
+    position: absolute;
+    background: rgb(226, 231, 235);
+    width: 65px;
+    height: 65px;
+    background: rgb(240, 232, 235);
+    border-radius: 35%;
+    margin: 330px 95px;
+    box-shadow: 3px 3px 14px #dcdfe4,-3px -3px 7px #ffffff,inset 2px 2px 5px #ccccd3,inset -2px -2px 5px #ccccd3;
+}
+.EndCall svg{
+    height: 32px;
+    width: 35px;
+    margin:18px 14px;
+}
+.ec{
+    position: absolute;
+    font-size: 9px;
+    width: 40px;
+    margin: 405px 110px;
+    color:rgb(172, 172, 172);
+    font-weight: 700;
+}
